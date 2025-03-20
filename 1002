@@ -1,0 +1,28 @@
+package executavel;
+
+import java.util.Scanner;
+
+public class programa {
+
+	public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        double A, r;
+        
+        final double n = 3.14159;
+        
+        
+        System.out.println("Digite o comprimento do raio para calcular a área do círculo");
+        r = sc.nextDouble();
+        
+         A = n * Math.pow(r, 2);
+        
+        System.out.println("Área do círculo: " + A);
+        
+    sc.close();            
+ 
+
+	}
+
+}
