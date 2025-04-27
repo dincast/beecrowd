@@ -1,0 +1,77 @@
+import java.io.IOException;
+
+import java.util.Scanner;
+ 
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+        
+        Scanner sc = new Scanner(System.in);
+ 
+        int n;
+        double h, v, s;
+        
+        
+        // n = numero do funcionario
+        // h = nº de horas trabalhadas
+        // v = valor do trabalho-hora
+        // s = salário
+        
+        n = sc.nextInt();
+        h = sc.nextDouble();
+        v = sc.nextDouble();
+        
+        s = h * v;
+        
+        System.out.println("NUMBER = " + n);
+        System.out.printf("SALARY = U$ %.2f%n", s);
+        
+        sc.close();
+ 
+    }
+ 
+}import java.io.IOException;
+
+import java.util.Scanner;
+ 
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+        
+        Scanner sc = new Scanner(System.in);
+ 
+        int n;
+        double h, v, s;
+        
+        
+        // n = numero do funcionario
+        // h = nº de horas trabalhadas
+        // v = valor do trabalho-hora
+        // s = salário
+        
+        n = sc.nextInt();
+        h = sc.nextDouble();
+        v = sc.nextDouble();
+        
+        s = h * v;
+        
+        System.out.println("NUMBER = " + n);
+        System.out.printf("SALARY = U$ %.2f%n", s);
+        
+        sc.close();
+ 
+    }
+ 
+}
