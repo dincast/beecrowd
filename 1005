@@ -1,0 +1,35 @@
+import java.io.IOException;
+
+import java.util.Scanner;
+ 
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
+
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        double A, B, M;
+        
+        System.out.println();
+        A = sc.nextDouble();
+        
+        System.out.println();
+        B = sc.nextDouble();
+        
+        M = (A * 3.5/11) + (B * 7.5/11);
+        
+        System.out.println("MEDIA = " + M);
+        
+        
+        sc.close();
+
+    }
+
+}
